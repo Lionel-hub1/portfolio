@@ -2,9 +2,9 @@ import movies from "../assets/images/movies-project.png";
 
 const Projects = () => {
   return (
-    <section className="py-8">
+    <section className="">
       <h2 className="text-2xl font-bold text-center">Projects</h2>
-      <div className="grid auto-cols-[200px] grid-flow-col gap-x-5 snap-always snap-x snap-mandatory overflow-x-auto mx-16">
+      <div className="grid auto-cols-[200px] md:auto-cols-fr grid-flow-col gap-x-5 snap-always snap-x snap-mandatory overflow-x-auto mx-16 lg:mx-24 pb-4">
         <div className="border-x border-secondary p-4 flex flex-col lg:flex-row space-x-4 rounded-md shadow-lg">
           <img
             className="h-24 w-full object-top lg:w-24 lg:h-full object-cover"

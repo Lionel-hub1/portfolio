@@ -2,7 +2,7 @@ const Skills = () => {
   return (
     <section className="py-8 ">
       <h2 className="text-2xl font-bold pb-2 text-center">Skills</h2>
-      <div className="grid auto-cols-[300px] grid-flow-col gap-x-5 snap-always snap-x snap-mandatory overflow-x-auto">
+      <div className="grid auto-cols-[150px] lg:auto-cols-fr grid-flow-col gap-x-5 snap-always snap-x snap-mandatory overflow-x-auto pb-5 mx-16 lg:mx-24">
         <div className="border-secondary-light text-primary-dark p-4 rounded-md shadow-lg">
           <h3 className="text-lg font-bold pb-2">Frontend</h3>
           <ul className="flex flex-col list-none">
