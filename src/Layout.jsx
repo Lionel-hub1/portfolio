@@ -145,7 +145,7 @@ const Layout = () => {
         src={next}
         alt=""
       />
-      <div className="px-10 lg:px-0 absolute bottom-8 left-3 lg:left-20 flex flex-col text-left space-y-3">
+      <div className="lg:px-0 absolute bottom-8 left-5 lg:left-20 flex flex-col text-left space-y-3">
         <span>
           <span className="text-secondary">Kigali, Rwanda</span>
         </span>
