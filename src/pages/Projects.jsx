@@ -4,18 +4,166 @@ const Projects = () => {
   return (
     <section className="py-8">
       <h2 className="text-2xl font-bold text-center">Projects</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-24">
-        <div className="border border-secondary">
-          <img className="w-24" src={movies} alt="" />
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-16 lg:mx-24 gap-3">
+        <div className="border border-secondary rounded-md p-4 flex flex-col lg:flex-row space-x-4">
+          <img
+            className="h-24 w-full object-top lg:w-24 lg:h-full object-cover"
+            src={movies}
+            alt=""
+          />
+          <div className="text-left">
+            <h3 className="text-lg font-bold">Movies App</h3>
+            <p className="text-sm">
+              A movie app that displays movies from an API
+            </p>
+            <h3 className="font-bold mt-3">Technologies</h3>
+            <ul className="list-disc list-inside">
+              <li>React</li>
+              <li>PWA</li>
+            </ul>
+            <h3 className="font-bold mt-3">
+              Hosted Link:{" "}
+              <a
+                href="https://movies-eight-virid.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-secondary font-light underline"
+              >
+                click
+              </a>
+            </h3>
+            <h3 className="font-bold mt-3">
+              Github repo:{" "}
+              <a
+                href="https://github.com/Lionel-hub1/movies"
+                target="_blank"
+                rel="noreferrer"
+                className="text-secondary font-light underline"
+              >
+                click
+              </a>
+            </h3>
+          </div>
         </div>
-        <div className="border border-secondary">
-          <img className="w-24" src={movies} alt="" />
+        <div className="border border-secondary rounded-md p-4 flex flex-col lg:flex-row space-x-4">
+          <img
+            className="h-24 w-full object-top lg:w-24 lg:h-full object-cover"
+            src={movies}
+            alt=""
+          />
+          <div className="text-left">
+            <h3 className="text-lg font-bold">Movies App</h3>
+            <p className="text-sm">
+              A movie app that displays movies from an API
+            </p>
+            <h3 className="font-bold mt-3">Technologies</h3>
+            <ul className="list-disc list-inside">
+              <li>React</li>
+              <li>PWA</li>
+            </ul>
+            <h3 className="font-bold mt-3">
+              Hosted Link:{" "}
+              <a
+                href="https://movies-eight-virid.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-secondary font-light underline"
+              >
+                click
+              </a>
+            </h3>
+            <h3 className="font-bold mt-3">
+              Github repo:{" "}
+              <a
+                href="https://github.com/Lionel-hub1/movies"
+                target="_blank"
+                rel="noreferrer"
+                className="text-secondary font-light underline"
+              >
+                click
+              </a>
+            </h3>
+          </div>
         </div>
-        <div className="border border-secondary">
-          <img className="w-24" src={movies} alt="" />
+        <div className="border border-secondary rounded-md p-4 flex flex-col lg:flex-row space-x-4">
+          <img
+            className="h-24 w-full object-top lg:w-24 lg:h-full object-cover"
+            src={movies}
+            alt=""
+          />
+          <div className="text-left">
+            <h3 className="text-lg font-bold">Movies App</h3>
+            <p className="text-sm">
+              A movie app that displays movies from an API
+            </p>
+            <h3 className="font-bold mt-3">Technologies</h3>
+            <ul className="list-disc list-inside">
+              <li>React</li>
+              <li>PWA</li>
+            </ul>
+            <h3 className="font-bold mt-3">
+              Hosted Link:{" "}
+              <a
+                href="https://movies-eight-virid.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-secondary font-light underline"
+              >
+                click
+              </a>
+            </h3>
+            <h3 className="font-bold mt-3">
+              Github repo:{" "}
+              <a
+                href="https://github.com/Lionel-hub1/movies"
+                target="_blank"
+                rel="noreferrer"
+                className="text-secondary font-light underline"
+              >
+                click
+              </a>
+            </h3>
+          </div>
         </div>
-        <div className="border border-secondary">
-          <img className="w-24" src={movies} alt="" />
+        <div className="border border-secondary rounded-md p-4 flex flex-col lg:flex-row space-x-4">
+          <img
+            className="h-24 w-full object-top lg:w-24 lg:h-full object-cover"
+            src={movies}
+            alt=""
+          />
+          <div className="text-left">
+            <h3 className="text-lg font-bold">Movies App</h3>
+            <p className="text-sm">
+              A movie app that displays movies from an API
+            </p>
+            <h3 className="font-bold mt-3">Technologies</h3>
+            <ul className="list-disc list-inside">
+              <li>React</li>
+              <li>PWA</li>
+            </ul>
+            <h3 className="font-bold mt-3">
+              Hosted Link:{" "}
+              <a
+                href="https://movies-eight-virid.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-secondary font-light underline"
+              >
+                click
+              </a>
+            </h3>
+            <h3 className="font-bold mt-3">
+              Github repo:{" "}
+              <a
+                href="https://github.com/Lionel-hub1/movies"
+                target="_blank"
+                rel="noreferrer"
+                className="text-secondary font-light underline"
+              >
+                click
+              </a>
+            </h3>
+          </div>
         </div>
       </div>
     </section>
