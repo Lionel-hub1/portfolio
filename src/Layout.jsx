@@ -145,7 +145,7 @@ const Layout = () => {
         src={next}
         alt=""
       />
-      <div className="px-10 hidden lg:px-0 absolute bottom-8 left-5 lg:left-20 md:flex flex-col text-left space-y-3">
+      <div className="px-10 hidden lg:px-0 absolute bottom-8 left-5 lg:left-20 xl:flex flex-col text-left space-y-3">
         <span>
           <span className="text-secondary">Kigali, Rwanda</span>
         </span>
@@ -162,7 +162,7 @@ const Layout = () => {
           </a>
         </span>
       </div>
-      <div className="flex items-center space-x-4 rotate-90 absolute right-8 bottom-16 lg:bottom-32">
+      <div className="flex items-center space-x-4 rotate-90 absolute right-0 bottom-16 lg:bottom-32">
         <span className="text-secondary hidden lg:flex">Follow Me</span>
         <span className="w-10 h-px bg-secondary hidden lg:flex"></span>
         <a
