@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <section className="py-8">
       <h2 className="text-2xl font-bold text-center">Projects</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-16 lg:mx-24 gap-3">
+      <div className="grid auto-cols-[200px] grid-flow-col gap-x-5 snap-always snap-x snap-mandatory overflow-x-auto mx-16">
         <div className="border-x border-secondary p-4 flex flex-col lg:flex-row space-x-4 rounded-md shadow-lg">
           <img
             className="h-24 w-full object-top lg:w-24 lg:h-full object-cover"
