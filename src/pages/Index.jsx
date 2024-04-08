@@ -1,7 +1,12 @@
-const Index = () => {
+import Home from '../components/Home';
+
+function App() {
   return (
-    <div className="text-9xl">Index page</div>
-  )
+    <div className="bg-secondary">
+      <Home />
+      
+    </div>
+  );
 }
 
-export default Index
+export default App;
