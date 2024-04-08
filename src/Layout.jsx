@@ -123,7 +123,7 @@ const Layout = () => {
         </div>
       </nav>
       <img
-        className="w-12 absolute left-3 lg:left-10 bottom-0 top-0 my-auto z-50 cursor-pointer"
+        className="w-12 absolute left-1 lg:left-10 bottom-0 top-0 my-auto z-50 cursor-pointer"
         src={previous}
         onClick={handlePrevious}
         alt=""
@@ -140,12 +140,12 @@ const Layout = () => {
         </CSSTransition>
       </TransitionGroup>
       <img
-        className="w-12 absolute right-3 lg:right-10 bottom-0 top-0 my-auto cursor-pointer z-50"
+        className="w-12 absolute right-1 lg:right-10 bottom-0 top-0 my-auto cursor-pointer z-50"
         onClick={handleNext}
         src={next}
         alt=""
       />
-      <div className="px-10 lg:px-0 absolute bottom-8 left-5 lg:left-20 flex flex-col text-left space-y-3">
+      <div className="px-10 lg:px-0 absolute bottom-8 left-3 lg:left-20 flex flex-col text-left space-y-3">
         <span>
           <span className="text-secondary">Kigali, Rwanda</span>
         </span>
