@@ -79,7 +79,7 @@ const Home = () => {
         </div>
       </div>
       <div className="flex flex-col lg:flex-row">
-        <div className="flex items-center justify-center max-w-full lg:w-1/2 mx-20 relative">
+        <div className="flex items-center justify-center max-w-full lg:w-1/2 px-20 relative">
           <div className="bg-secondary bg-opacity-10 rotate-[38deg] overflow-hidden">
             <img
               className="h-[15rem] lg:h-[24rem] -rotate-[30deg] -mb-14  text-wrap opacity-80"
@@ -88,7 +88,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="relative lg:absolute bottom-2 left-20 flex flex-col text-left py-4 space-y-3">
+        <div className="px-20 lg:absolute bottom-2 left-20 flex flex-col text-left py-4 space-y-3">
           <span>
             <span className="text-secondary">Kigali, Rwanda</span>
           </span>
@@ -105,8 +105,8 @@ const Home = () => {
             </a>
           </span>
         </div>
-        <div className="flex ml-20 lg:ml-0 lg:w-1/2 mr-20 lg:text-3xl items-center">
-          <p className="text-left text-wrap ">
+        <div className="flex w-auto overflow-auto ml-20 lg:ml-0 lg:w-1/2 mr-20 lg:text-3xl items-center">
+          <p className="text-left ">
             Hello, I&apos;m
             <span className="text-secondary inline-flex mx-1 font-semibold">
               Jean Lionel Ndabaga
