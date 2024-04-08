@@ -1,4 +1,6 @@
 import lion from "../assets/images/lionel-one.png";
+import love from "../assets/icons/love.svg";
+
 import { useState, useEffect } from "react";
 const Home = () => {
   const [visible, setVisible] = useState(true);
@@ -118,7 +120,11 @@ const Home = () => {
         </div>
       </div>
       <footer className="relative lg:absolute right-0 left-0 mx-auto bottom-2  text-secondary-light text-center py-4 w-1/2">
-        <p className="z-50">&copy; 2024 Jean Lionel Ndabaga</p>
+        <p className="z-50">
+          &copy; {new Date().getFullYear()}; made with{" "}
+          <img className="inline-flex w-6 h-6" src={love} alt="" /> by Jean
+          Lionel Ndabaga
+        </p>
       </footer>
     </div>
   );
