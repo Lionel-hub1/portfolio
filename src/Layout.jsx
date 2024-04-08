@@ -114,7 +114,7 @@ const Layout = () => {
         </div>
       </div>
       <span
-        className="absolute left-10 my-[50vh] z-50"
+        className="absolute left-10 my-[50vh] z-50 cursor-pointer"
         onClick={handlePrevious}
       >
         <img className="w-12" src={previous} alt="" />
@@ -130,7 +130,10 @@ const Layout = () => {
           <Outlet />
         </CSSTransition>
       </TransitionGroup>
-      <span className="absolute right-10 my-[50vh] z-50" onClick={handleNext}>
+      <span
+        className="absolute right-10 my-[50vh] cursor-pointer z-50"
+        onClick={handleNext}
+      >
         <img className="w-12" src={next} alt="" />
       </span>
       <div className="px-20 lg:px-0 lg:absolute bottom-8 left-20 flex flex-col text-left space-y-3">
