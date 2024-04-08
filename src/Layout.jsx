@@ -67,8 +67,17 @@ const Layout = () => {
   };
 
   return (
-    <div className="bg-primary font-[Roboto-Condensed] flex flex-col text-white text-center h-screen relative">
-      <div className="flex sticky top-0 justify-between px-20 py-5  z-50">
+    <div className="bg-primary font-[Roboto-Condensed] flex flex-col text-white text-center min-h-screen relative">
+      <nav
+        className="flex sticky top-0 bg-primary justify-center lg:justify-between px-20 py-5 z-50"
+        onScroll={() => {
+          if (window.scrollY > 0) {
+            document.querySelector("nav").classList.add("bg-primary");
+          } else {
+            document.querySelector("nav").classList.remove("bg-primary");
+          }
+        }}
+      >
         <div className="flex relative group overflow-hidden flex-col w-[12rem] h-[4rem] items-center justify-center ">
           <div className="flex cursor-pointer absolute group-hover:translate-y-[5rem] transition-transform duration-700 bottom-0 flex-col space-y-4">
             <a
@@ -112,13 +121,13 @@ const Layout = () => {
             </Link>
           ))}
         </div>
-      </div>
-      <span
-        className="absolute left-10 my-[50vh] z-50 cursor-pointer"
+      </nav>
+      <img
+        className="w-12 absolute left-3 lg:left-10 bottom-0 top-0 my-auto z-50 cursor-pointer"
+        src={previous}
         onClick={handlePrevious}
-      >
-        <img className="w-12" src={previous} alt="" />
-      </span>
+        alt=""
+      />
 
       <TransitionGroup className="flex-1">
         <CSSTransition
@@ -130,13 +139,13 @@ const Layout = () => {
           <Outlet />
         </CSSTransition>
       </TransitionGroup>
-      <span
-        className="absolute right-10 my-[50vh] cursor-pointer z-50"
+      <img
+        className="w-12 absolute right-3 lg:right-10 bottom-0 top-0 my-auto cursor-pointer z-50"
         onClick={handleNext}
-      >
-        <img className="w-12" src={next} alt="" />
-      </span>
-      <div className="px-20 lg:px-0 lg:absolute bottom-8 left-20 flex flex-col text-left space-y-3">
+        src={next}
+        alt=""
+      />
+      <div className="px-10 hidden lg:px-0 absolute bottom-8 left-5 lg:left-20 md:flex flex-col text-left space-y-3">
         <span>
           <span className="text-secondary">Kigali, Rwanda</span>
         </span>
@@ -153,9 +162,9 @@ const Layout = () => {
           </a>
         </span>
       </div>
-      <div className="flex items-center space-x-4 rotate-90 absolute right-8 bottom-32">
-        <span className="text-secondary">Follow Me</span>
-        <span className="w-10 h-px bg-secondary"></span>
+      <div className="flex items-center space-x-4 rotate-90 absolute right-8 bottom-16 lg:bottom-32">
+        <span className="text-secondary hidden lg:flex">Follow Me</span>
+        <span className="w-10 h-px bg-secondary hidden lg:flex"></span>
         <a
           href="https://github.com/Lionel-hub1"
           className=""
