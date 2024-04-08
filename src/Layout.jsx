@@ -79,7 +79,7 @@ const Layout = () => {
         }}
       >
         <div className="flex relative group overflow-hidden flex-col w-[12rem] h-[4rem] items-center justify-center ">
-          <div className="flex cursor-pointer absolute group-hover:translate-y-[5rem] transition-transform duration-700 bottom-0 flex-col space-y-4">
+          <div className=" whitespace-nowrap flex cursor-pointer absolute group-hover:translate-y-[5rem] transition-transform duration-700 bottom-0 flex-col space-y-4">
             <a
               className="h-[4rem] flex items-center justify-center text-xl px-4 py-1 border"
               href="https://docs.google.com/document/d/19JvpMsRmWCi8vQI5VoBW8_PIEpVHPvs9/edit?usp=sharing&ouid=110566634388359731224&rtpof=true&sd=true"
