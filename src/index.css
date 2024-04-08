@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Animating transitions on route change */
 .fade-enter {
   opacity: 0;
 }
@@ -22,4 +23,16 @@
 
 .fade-enter-done {
   opacity: 1;
+}
+
+/* customizing scroll bar */
+::-webkit-scrollbar {
+  background-color: #e2f4c510;
+  width: 3px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e2f4c550;
+  border-radius: 10px;
 }
