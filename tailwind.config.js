@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    backgroundImage: {
+      'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+    },
     extend: {
       colors: {
         'primary': '#496989',
