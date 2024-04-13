@@ -19,6 +19,7 @@ import expo from "../assets/icons/expo.svg";
 import androidstudio from "../assets/icons/androidstudio.svg";
 import flutter from "../assets/icons/flutter.svg";
 import java from "../assets/icons/java.svg";
+import server from "../assets/icons/server.svg";
 
 const Skills = () => {
   return (
@@ -213,7 +214,7 @@ const Skills = () => {
         </div>
         <div className="border-secondary-light text-primary-dark p-4">
           <h3 className="text-lg flex justify-center space-x-4 font-bold pb-2 rounded-md shadow-lg w-full">
-            <img className="w-6" src={mobile} alt="" />
+            <img className="w-6" src={server} alt="" />
             <span>DevOps</span>
           </h3>
           <ul className="flex flex-col mx-7 mt-4 space-y-4 list-none">
