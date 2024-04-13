@@ -150,7 +150,7 @@ const Layout = () => {
           <span className="text-secondary">Kigali, Rwanda</span>
         </span>
         <span>
-          <a href="tel:+250789912852">+250789912852</a> y/{" "}
+          <a href="tel:+250789912852">+250789912852</a> /{" "}
           <a href="tel:+250785919170">+250785919170</a>
         </span>
         <span>
