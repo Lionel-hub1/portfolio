@@ -27,11 +27,9 @@ const Skills = () => {
       <h2 className="text-2xl font-bold py-1 text-center">Skills</h2>
       <div className="grid auto-cols-[300px] grid-flow-col gap-x-5 snap-always snap-x snap-mandatory overflow-x-auto pb-5 mx-16 lg:mx-24">
         <div className="border-secondary-light text-primary-dark p-4 ">
-          <h3 className="text-lg flex justify-center bg-secondary-light bg-opacity-50 space-x-4 font-bold py-1 rounded-md shadow-lg w-full">
+          <h3 className="text-lg flex justify-center space-x-4 font-bold py-1 rounded-md shadow-lg w-full">
             <img className="w-6" src={frontend} alt="" />
-            <p className="flex items-center">
-              Frontend <span className="text-xs mx-1">(Specialized)</span>{" "}
-            </p>
+            <span>Frontend</span>
           </h3>
           <ul className="flex flex-col mx-7 mt-4 space-y-4 list-none">
             <li className="flex w-full justify-between">
@@ -97,9 +95,12 @@ const Skills = () => {
           </ul>
         </div>
         <div className="border-secondary-light text-primary-dark p-4">
-          <h3 className="text-lg flex justify-center space-x-4 font-bold py-1 rounded-md shadow-lg w-full">
+          <h3 className="text-lg flex justify-center bg-secondary-light bg-opacity-50 space-x-4 font-bold py-1 rounded-md shadow-lg w-full">
             <img className="w-6" src={backend} alt="" />
-            <span>Backend</span>
+            <span></span>
+            <p className="flex items-center">
+              Backend <span className="text-xs mx-1">(Specialized)</span>{" "}
+            </p>
           </h3>
           <ul className="flex flex-col mx-7 mt-4 space-y-4 list-none">
             <li className="flex w-full justify-between">
