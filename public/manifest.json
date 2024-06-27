@@ -1,0 +1,8 @@
+{
+  "name": "Portfolio",
+  "short_name": "Portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "description": "This is my personal portfolio",
+  "theme_color": "#496989"
+}
