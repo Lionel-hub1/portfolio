@@ -11,6 +11,7 @@ const Projects = () => {
             className="h-24 w-full object-top lg:w-24 lg:h-full object-cover rounded-t-md lg:rounded-none lg:rounded-l-md"
             src={movies}
             alt="Movies App Screenshot"
+            loading="lazy"
           />
           <div className="text-left p-2">
             <h3 className="text-lg font-bold">Movies App</h3>
@@ -37,6 +38,7 @@ const Projects = () => {
             className="h-24 w-full object-top lg:w-24 lg:h-full object-cover rounded-t-md lg:rounded-none lg:rounded-l-md"
             src={diyblog}
             alt="DIY Screenshot"
+            loading="lazy"
           />
           <div className="text-left p-2">
             <h3 className="text-lg font-bold">DIY Blog</h3>
