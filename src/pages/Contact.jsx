@@ -1,11 +1,12 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 const Contact = () => {
-  const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
+  let submitted = false;
+  // const [submitted, setSubmitted] = useState(false);
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setSubmitted(true);
+  // };
   return (
     <section className="py-8 flex flex-col items-center">
       <h2 className="text-2xl font-bold text-center pb-5">Contact Me</h2>
@@ -17,7 +18,7 @@ const Contact = () => {
       ) : (
         <form
           method="POST"
-          onSubmit={handleSubmit}
+          // onSubmit={handleSubmit}
           action="https://getform.io/f/lajkokqb"
           className="w-[70vw] lg:w-1/2 flex flex-col text-primary items-center justify-center"
         >
